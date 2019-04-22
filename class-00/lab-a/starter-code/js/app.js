@@ -36,7 +36,7 @@ function displayPics(){
     }
   }
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the constiable declaration from `const to `const`.
-  // rando was declared inside a block of code(function) and when changed to const it would have been pushed off the stack when it left the scope of the displayPics function.
+  // rando was declared inside a block of code(function) and when changed to const it would have been pushed off the stack when it left the scope of the while(loop)
   console.log(viewed);
 
   for (let i = 0; i < 3; i++){
